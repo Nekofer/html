@@ -1,0 +1,23 @@
+<html>
+<head> <title> Libro de visitas </title> </head>
+<body>
+<br>
+<form action="registrardatos.php" method="post">
+<label> Ingrese su nombre y apellido: </label>
+<input type="text" name="nombre" size="30"> <br> <br>
+<label> Ingrese su mail: </label> 
+<input type="text" name="mail" size="20"> <br> <br>
+<label> Ingrese su pais de origen: </label> 
+<input type="text" name="pais" value="seleccione pais" size="25"> <br> <br>
+<label> Ingrese su valoracion del sitio </label> <br> 
+<input type="radio" name="val" value="Malo"> Malo <br>
+<input type="radio" name="val" value="Regular"> Regular <br>
+<input type="radio" name="val" checked value="Bueno"> Bueno <br>
+<input type="radio" name="val" value="Mbueno"> Muy Bueno <br>
+<input type="radio" name="val" value="Excelente"> Excelente <br> <br>
+<textarea name="comentarios" rows="5" cols="40"> Ingrese aqui sus comentarios </textarea> <br> <br>
+<input type="submit" value="Enviar">
+<input type="reset" value="Borrar">
+</form>
+</body>
+</html>

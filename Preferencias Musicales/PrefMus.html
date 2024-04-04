@@ -1,0 +1,60 @@
+<html>
+<head> <title> Preferencias Musicales </title> </head>
+<body background="Img/fondo2.jpg"> 
+<font color="white"> <center> <br>
+<form action="/registrardatos.php" method="post">
+<h1> Preferencias Musicales </h1>
+<label> Seleccione sus generos preferidos: </label> <br> <br>
+<input type="checkbox" name="Rock"> Rock <br>
+<input type="checkbox" name="Pop"> Pop <br>
+<input type="checkbox" name="Jazz"> Jazz <br> <br>
+<label> Seleccione su edad: </label> <br> <br>
+<input type="radio" name="edad" value="1"> 12 a 17 <br>
+<input type="radio" name="edad" value="2"> 18 a 35 <br>
+<input type="radio" name="edad" value="3"> 36 a 65 <br>
+<input type="radio" name="edad" value="4"> Mas de 65 <br> <br>
+<label> Seleccione los grupos de su agrado: </label> <br> <br> <br>
+<select name="groups" size="4" multiple>
+<optgroup label="Rock">
+<option value="1"> Interpol </option>
+<option value="2"> Royal Blood </option>
+<option value="3"> Gorillaz </option>
+</optgroup>
+</select>
+<img src="Img/RockInterpol.jpg", width="300" height="250">
+<img src="Img/RockRoyalB.jpg", width="300" height="250">
+<img src="Img/RockGorillaz.jpg", width="300" height="250"> <br> </center>
+<label>-------------------------------------------------------------------------------------- Interpol </label>   <label> --------------------------------------------- Royal Blood </label>  <label> --------------------------------------------- Gorillaz ------------------------------------------------------------------</label> <br> <br>
+
+<center>
+<select name="groups" size="4" multiple>
+<optgroup label="Pop">
+<option value="4"> Carly Rae Jepsen </option>
+<option value="5"> Coldplay </option>
+<option value="6"> MAGIC! </option>
+</optgroup>
+</select>
+<img src="Img/PopCarly.jpg", width="300" height="250">
+<img src="Img/PopColdplay.jpg", width="300" height="250">
+<img src="Img/PopMagic.jpg", width="300" height="250"> <br> <br> </center>
+<label>------------------------------------------------------------------------------------ Carly Rae Jepsem </label>   <label> ----------------------------------------- Coldplay </label>  <label> ---------------------------------------------- MAGIC! --------------------------------------------------------------</label> <br> <br>
+
+<center>
+<select name="Jazz" size="4" multiple>
+<optgroup label="Jazz">
+<option value="7"> Louis Armstrong </option>
+<option value="8"> Thelonious Monk </option>
+<option value="9"> Duke Ellington </option>
+</optgroup>
+</select>
+<img src="Img/JazzLouis.jpg", width="300" height="250">
+<img src="Img/JazzThe.jpg", width="300" height="250">
+<img src="Img/JazzDuke.jpg", width="300" height="250"> <br> <br> </center>
+<label>------------------------------------------------------------------------------------ Louis Armstrong </label>   <label> ------------------------------------ Thelonious Monk </label>  <label> ------------------------------------ Duke Ellington -------------------------------------------------------------</label> <br> <br>
+
+<center>
+<input type="submit" value="enviar">
+<input type="reset" value="borrar">
+</form>
+</body>
+</html>

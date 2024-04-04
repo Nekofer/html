@@ -1,0 +1,42 @@
+<html>
+<head> <title> Dolce Vitta </title> </head>
+<body bgcolor="Green">
+<form action="/registrardatos.php" method="post">
+<br>
+<h1> Pizzeria Dolce Vitta </h1>
+<br>
+<fieldset>
+<legend> Datos del Cliente </legend>
+<label> Nombre y apellido: </label>
+<input type="text" name="nombre" size="30" placeholder="Nombre y apellido"> <br> <br>
+<label> Metodo de pago: </label> <br>
+<input type="radio" name="MP" value="1"> Tarjeta <br>
+<input type="radio" name="MP" value="2"> Efectivo <br>
+<input type="radio" name="MP" value="3"> Otro <br> <br>
+<label> Direccion: </label>
+<input type="text" name="direc" size="30"  placeholder="Direccion"> <br>
+</fieldset>
+<br>
+<fieldset>
+<legend> Datos del pedido </legend>
+<label> Tamaño de la pizza: </label> <br>
+<input type="radio" name="TM" value="1"> Pequeño <br>
+<input type="radio" name="TM" value="2"> Mediano <br>
+<input type="radio" name="TM" value="3"> Grande <br> <br>
+<label> Ingredientes: </label> <br>
+<input type="checkbox" name="ingre"> Pepperoni <br>
+<input type="checkbox" name="ingre"> Champiñones <br>
+<input type="checkbox" name="ingre"> Tocino <br>
+<input type="checkbox" name="ingre"> Cebolla <br>
+<input type="checkbox" name="ingre"> Jamon Serrano <br>
+<input type="checkbox" name="ingre"> Aceitunas <br>
+<input type="checkbox" name="ingre"> Albahaca <br> <br>
+<label> Cantidad: </label>
+<input type="text" name="cantidad" size="5" placeholder="Cantidad"> <br>
+</fieldset>
+<br>
+<input type="submit" value="Enviar">
+<input type="reset" value="Borrar">
+</form>
+</body>
+</html>

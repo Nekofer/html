@@ -1,0 +1,32 @@
+<html>
+<head> <title> Curso de HTML </title> </head>
+<body bgcolor="cyan">
+<font face="Arial"> <font size="4">
+<br>
+<h1> Curso de HTML </h1>
+<br>
+<form action="/registrardatos.php" method="post">
+<label for="nombre"> Ingrese su nombre: </label> 
+<input type="text" id="nombre" size="30" placeholder="Nombre"> <br> <br>
+<label> Seleccione que le a parecido el curso de HTML: </label>
+<select name="html">
+<option value="1"> Excelente </option>
+<option value="2"> Muy Bueno </option>
+<option value="3"> Bueno </option>
+<option value="4"> Regular </option>
+<option value="5"> Malo </option>
+</select> <br> <br>
+<label> Seleccione que le a parecido el profesor: </label>
+<select name="profesor">
+<option value="1"> Excelente </option>
+<option value="2"> Muy Bueno </option>
+<option value="3"> Bueno </option>
+<option value="4"> Regular </option>
+<option value="5"> Malo </option>
+</select>
+<br> <br>
+<input type="submit" value="Enviar">
+<input type="reset" value="Borrar">
+</form>
+</body>
+</html>
